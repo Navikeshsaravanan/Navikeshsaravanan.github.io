@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navikesh Saravanan | Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=JetBrains+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="particleCanvas"></canvas>
+
+    <nav>
+      <div class="logo">Navikesh Saravanan<span></span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="hero-content" data-aos="fade-up">
+        <h1 class="glitch" data-text="NAVIKESH SARAVANAN">
+          NAVIKESH SARAVANAN
+        </h1>
+        <h3>I am a <span id="typed"></span></h3>
+        <p>Freshman CSE Student @ Amrita Vishwa Vidyapeetham | CGPA: 8.4</p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Discovery<span>.</span></h2>
+        <div class="title-line"></div>
+      </div>
+
+      <div class="about-wrapper">
+        <div class="about-content" data-aos="fade-right">
+          <h3 class="gradient-text">Architecting Digital Solutions</h3>
+          <p>
+            I am a first-year **Computer Science Engineering** student at Amrita
+            Vishwa Vidyapeetham, driven by the challenge of solving complex
+            problems through code. My focus lies at the intersection of
+            **Software Development** and **Cybersecurity**.
+          </p>
+          <p>
+            Whether it's optimizing a DSA problem in C++ or exploring the
+            intricacies of operating systems, I aim to build software that is
+            not just functional, but secure and scalable.
+          </p>
+
+          <div class="personal-info-grid">
+            <div class="info-item">
+              <span class="label">Location</span>
+              <span class="value">Namakkal, India</span>
+            </div>
+            <div class="info-item">
+              <span class="label">Role</span>
+              <span class="value">Cybernaut</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-stats" data-aos="fade-left">
+          <div class="glass-card edu-card">
+            <div class="card-icon"><i class="fas fa-university"></i></div>
+            <h4>Education</h4>
+            <p class="edu-place">Amrita Vishwa Vidyapeetham</p>
+            <p class="edu-degree">B.Tech in CSE (Sem 2)</p>
+            <div class="cgpa-badge">8.4 CGPA</div>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-box">
+              <span class="stat-number">4+</span>
+              <span class="stat-label">Core Languages</span>
+            </div>
+            <div class="stat-box">
+              <span class="stat-number">10+</span>
+              <span class="stat-label">Projects Done</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container">
+      <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+      <div class="project-grid">
+        <div class="project-card" data-aos="zoom-in">
+          <div class="card-content">
+            <h3>Pallanguli Game</h3>
+            <p>
+              A digital implementation of the traditional board game using C.
+              Features logic-based gameplay and terminal UI.
+            </p>
+            <div class="tech-stack">
+              <span>C</span> <span>Game Logic</span> <span>Algorithms</span>
+            </div>
+            <a
+              href="https://github.com/Navikeshsaravanan/Digital-Pallanguli"
+              class="repo-link"
+              ><i class="fab fa-github"></i> View Repo</a
+            >
+          </div>
+        </div>
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card-content">
+            <h3>Custom OS Kernel</h3>
+            <p>
+              Exploring low-level systems programming to develop a custom OS for
+              mobile and laptop environments.
+            </p>
+            <div class="tech-stack">
+              <span>C++</span> <span>Assembly</span> <span>Kernel</span>
+            </div>
+            <a href="#" class="repo-link"
+              ><i class="fab fa-github"></i> Coming Soon</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2 class="section-title">Tech Ecosystem<span>.</span></h2>
+        <div class="title-line"></div>
+      </div>
+
+      <div class="tech-stack-container">
+        <div class="tech-category" data-aos="fade-right">
+          <h3><i class="fas fa-terminal"></i> Core Languages</h3>
+          <div class="skills-grid">
+            <div class="skill-item" title="Python">
+              <i class="fab fa-python" style="color: #3776ab"></i>
+              <span>Python</span>
+            </div>
+            <div class="skill-item" title="Java">
+              <i class="fab fa-java" style="color: #f89820"></i>
+              <span>Java</span>
+            </div>
+            <div class="skill-item" title="C++">
+              <i class="fas fa-code" style="color: #00599c"></i>
+              <span>C / C++</span>
+            </div>
+            <div class="skill-item" title="JavaScript">
+              <i class="fab fa-js" style="color: #f7df1e"></i>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category" data-aos="fade-up" data-aos-delay="100">
+          <h3><i class="fas fa-tools"></i> Tools & OS</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fab fa-git-alt" style="color: #f05032"></i>
+              <span>Git</span>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-linux" style="color: #fcc624"></i>
+              <span>Linux (Ubuntu)</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-laptop-code" style="color: #007acc"></i>
+              <span>VS Code</span>
+            </div>
+            <div class="skill-item" title="IntelliJ IDEA">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/9/9c/IntelliJ_IDEA_Icon.svg"
+                alt="IntelliJ"
+                style="width: 32px; height: 32px; margin-bottom: 8px"
+              />
+              <span>IntelliJ IDEA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category" data-aos="fade-left" data-aos-delay="200">
+          <h3><i class="fas fa-shield-alt"></i> Security & Systems</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <i class="fas fa-network-wired" style="color: #4db33d"></i>
+              <span>Network Security</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-user-check" style="color: #ff4b2b"></i>
+              <span>Auth & Identity</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-terminal" style="color: #00d2ff"></i>
+              <span>Pen-Testing</span>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-project-diagram" style="color: #9d50bb"></i>
+              <span>System Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <section id="contact" class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Get In Touch<span>.</span></h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-form-container" data-aos="fade-right">
+            <form
+              action="https://formcarry.com/s/GW6xia5rLzP"
+              method="POST"
+              id="contact-form"
+              accept-charset="UTF-8"
+            >
+              <div class="input-group">
+                <input
+                  type="text"
+                  name="firstName"
+                  id="name"
+                  required
+                  placeholder=" "
+                />
+                <label for="name">Full Name</label>
+              </div>
+              <div class="input-group">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  placeholder=" "
+                />
+                <label for="email">Email Address</label>
+              </div>
+              <div class="input-group">
+                <textarea
+                  name="message"
+                  id="message"
+                  required
+                  placeholder=" "
+                  rows="5"
+                ></textarea>
+                <label for="message">Your Message</label>
+              </div>
+
+              <input type="hidden" name="_gotcha" />
+
+              <button type="submit" class="submit-btn" id="submit-button">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+
+          <div class="contact-info" data-aos="fade-left">
+            <div class="info-card email-card" onclick="copyEmail()">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p id="user-email">navikesh96@gmail.com</p>
+              </div>
+              <span class="copy-hint" id="copybox">Click to Copy</span>
+            </div>
+
+            <div class="social-grid">
+              <a
+                href="https://github.com/Navikeshsaravanan"
+                target="_blank"
+                class="social-tile github"
+              >
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/navikesh08/"
+                target="_blank"
+                class="social-tile linkedin"
+              >
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="#" target="_blank" class="social-tile twitter">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </div>
+
+            <div class="availability-status">
+              <span class="pulse-green"></span>
+              <p>Available for Internships</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
